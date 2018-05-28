@@ -1,6 +1,6 @@
 {
   "name": "generator-vuemultipage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a multi page vue project",
   "scripts": {
     "test": "jest",
