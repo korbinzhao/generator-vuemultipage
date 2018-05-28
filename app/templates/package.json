@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --env.NODE_ENV=development --mode development --open --host 0.0.0.0",
-    "build": "webpack --env.NODE_ENV=production --mode production && nozomi -r dist",
+    "build": "webpack --env.NODE_ENV=production --mode production",
     "start": "npm run dev",
     "skeleton-main": "skeleton -u http://127.0.0.1:8080/main -t src/pages/main/index.html",
     "skeleton-sub": "skeleton -u http://127.0.0.1:8080/sub -t src/pages/sub/index.html"
@@ -17,7 +17,6 @@
   "dependencies": {
   },
   "devDependencies": {
-    "@ali/nozomi-kit-tool": "*",
     "autoprefixer": "8.3.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
