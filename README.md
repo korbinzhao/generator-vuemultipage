@@ -1,15 +1,15 @@
 ## description
-a scaffold generator for vue ui component
+a multi page vue project
 
 ## examples
 
 ```
 npm install -g yo
-npm install -g generator-vueui
+npm install -g generator-vuemultipage
 
-mkdir vueui-example
-cd vueui-example
+mkdir vuemultipage-example
+cd vuemultipage-example
 
-yo vueui
+yo vuemultipage
 
 ```
